@@ -3,7 +3,7 @@
 
 html, body { width: 250mm; height: 297mm; background: var(--page); }
 body {
-  font-size: 11.8pt;
+  font-size: 11.9pt;
   line-height: 1.28;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
@@ -16,17 +16,17 @@ body {
   box-shadow: none;
 }
 h1 { font-size: 42pt; }
-.contact, .dates { font-size: 11.8pt; }
-.intro { padding-bottom: 2.3mm; }
+.contact, .dates { font-size: 11.9pt; }
+.intro { padding-bottom: 3.5mm; }
 section { padding-top: 3.5mm; }
-h2 { margin-bottom: 1.7mm; font-size: 13.7pt; }
-.summary { padding-top: 2mm; }
-.summary p { font-size: 11.8pt; line-height: 1.28; }
+h2 { margin-bottom: 1.7mm; font-size: 13.8pt; }
+.summary { padding-top: 3.5mm; }
+.summary p { font-size: 11.9pt; line-height: 1.28; }
 .experience { padding-top: 3.6mm; }
 .role { padding: 1.15mm 0 1.25mm; break-inside: avoid; page-break-inside: avoid; }
 .role + .role { padding-top: 1.45mm; }
-h3 { font-size: 12pt; }
-.job-title { font-size: 11pt; }
+h3 { font-size: 12.1pt; }
+.job-title { font-size: 11.1pt; }
 ul { margin: .85mm 0 0 1.5mm; }
 li { padding-left: 5.5mm; }
 li + li { margin-top: .48mm; }

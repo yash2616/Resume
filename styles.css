@@ -15,7 +15,7 @@ body {
   color: var(--ink);
   background: var(--page);
   font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 14.5px;
+  font-size: 14.6px;
   line-height: 1.45;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -27,30 +27,30 @@ body {
   padding: 2.75rem var(--page-gutter) 2.75rem;
   background: var(--page);
 }
-.intro { padding-bottom: .72rem; border-bottom: 1px solid var(--rule); text-align: center; }
+.intro { padding-bottom: 1.3rem; border-bottom: 1px solid var(--rule); text-align: center; }
 h1, h2, h3, p { margin: 0; }
 h1, h2 { font-family: Raleway, Lato, sans-serif; }
 h1 { font-family: Lato, sans-serif; font-size: clamp(42px, 5.4vw, 54px); font-weight: 300; line-height: 1.05; letter-spacing: -.025em; }
-.contact { display: flex; flex-wrap: wrap; justify-content: center; gap: .2rem .5rem; margin-top: .42rem; color: #666666; font-size: 14.5px; font-style: normal; }
+.contact { display: flex; flex-wrap: wrap; justify-content: center; gap: .2rem .5rem; margin-top: .42rem; color: #666666; font-size: 14.6px; font-style: normal; }
 a { color: inherit; text-decoration-color: #c4c4c4; text-underline-offset: 2px; }
 a:hover, a:focus-visible { color: var(--ink); text-decoration-color: currentColor; }
 a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
 
 section { padding-top: 1.5rem; }
-h2 { margin-bottom: .62rem; color: var(--section); font-size: 18.7px; font-weight: 600; line-height: 1.2; letter-spacing: .015em; text-transform: uppercase; }
-.summary { padding-top: .95rem; }
-.summary p { max-width: 104ch; color: #3c3c3c; font-size: 14.5px; line-height: 1.5; }
+h2 { margin-bottom: .62rem; color: var(--section); font-size: 18.9px; font-weight: 600; line-height: 1.2; letter-spacing: .015em; text-transform: uppercase; }
+.summary { padding-top: 1.3rem; }
+.summary p { max-width: 104ch; color: #3c3c3c; font-size: 14.6px; line-height: 1.5; }
 .experience { padding-top: 1.55rem; }
 .role { padding: .62rem 0 .72rem; }
 .role + .role { padding-top: .82rem; }
 .role-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1.25rem; }
 .role-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: .42rem; min-width: 0; }
 .education-row { display: flex; align-items: baseline; justify-content: space-between; gap: 1.5rem; }
-h3 { font-family: Lato, sans-serif; font-size: 16.1px; font-weight: 900; line-height: 1.25; letter-spacing: -.012em; }
+h3 { font-family: Lato, sans-serif; font-size: 16.2px; font-weight: 900; line-height: 1.25; letter-spacing: -.012em; }
 .role-separator { color: #747474; font-weight: 400; }
-.job-title { margin: 0; font-family: Raleway, Lato, sans-serif; font-size: 13px; font-weight: 600; letter-spacing: .035em; text-transform: uppercase; }
+.job-title { margin: 0; font-family: Raleway, Lato, sans-serif; font-size: 13.1px; font-weight: 600; letter-spacing: .035em; text-transform: uppercase; }
 .education-detail { color: var(--muted); font-weight: 400; }
-.dates { flex: 0 0 auto; font-size: 14.5px; white-space: nowrap; text-align: right; }
+.dates { flex: 0 0 auto; font-size: 14.6px; white-space: nowrap; text-align: right; }
 ul { margin: .55rem 0 0 .3rem; padding: 0; list-style: none; }
 li { position: relative; padding-left: 1.4rem; }
 li + li { margin-top: .28rem; }
