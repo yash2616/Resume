@@ -1,0 +1,69 @@
+@page { size: A4; margin: 8mm 13.5mm 7mm; }
+
+:root {
+  --ink: #303030;
+  --muted: #555555;
+  --section: #707070;
+  --rule: #9a9a9a;
+}
+
+* { box-sizing: border-box; }
+html { background: #f2f2f1; }
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--ink);
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 11pt;
+  line-height: 1.32;
+}
+.resume { max-width: 850px; margin: 24px auto; padding: 42px 54px; background: #fff; }
+h1, h2, h3, p { margin: 0; }
+a { color: inherit; text-decoration-color: #c4c4c4; text-underline-offset: 2px; }
+.masthead { border-bottom: 1px solid var(--rule); padding-bottom: 9px; text-align: center; }
+h1 { font-size: 48px; font-weight: 300; letter-spacing: -.025em; line-height: 1.05; }
+h1 strong { font-weight: 700; }
+.headline { color: #3c3c3c; font-family: Raleway, Lato, sans-serif; font-size: 10pt; font-weight: 600; letter-spacing: .018em; margin-top: 4px; text-transform: uppercase; }
+.contact { color: #666; font-size: 10.5pt; margin-top: 4px; }
+section { margin-top: 14px; }
+h2 { color: var(--section); font-family: Raleway, Lato, sans-serif; font-size: 13pt; font-weight: 600; letter-spacing: .015em; margin-bottom: 6px; text-transform: uppercase; }
+.continuation span { color: var(--muted); font-size: .78em; }
+h3 { display: flex; align-items: baseline; font-size: 11.5pt; font-weight: 900; justify-content: space-between; letter-spacing: -.012em; margin-top: 11px; text-transform: uppercase; }
+.role-title { min-width: 0; }
+.company-name { font-weight: 900; }
+.designation { font-weight: 700; }
+strong { font-weight: 700; }
+.role-meta, .stack { font-size: 10pt; margin-top: 1px; }
+.inline-date { color: var(--ink); flex: none; font-size: .82em; font-weight: 400; letter-spacing: 0; text-transform: none; white-space: nowrap; }
+.stack { color: var(--muted); }
+ul { margin: 4px 0 0; padding-left: 19px; }
+li + li { margin-top: 2px; }
+li::marker { color: var(--ink); }
+/* Long roles may continue on the next page; keeping a whole role together wastes a large page area. */
+article { break-inside: auto; page-break-inside: auto; }
+.page-two-start { break-before: page; page-break-before: always; }
+.skills-list { columns: 1; }
+
+@media print {
+  html, body { background: #fff; }
+  body { font-size: 9.8pt; line-height: 1.25; }
+  .resume {
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+  .masthead { padding-bottom: 2.3mm; }
+  h1 { font-size: 32pt; }
+  .headline { font-size: 9.3pt; margin-top: 1mm; }
+  .contact { font-size: 10pt; margin-top: 1.1mm; }
+  section { margin-top: 3.4mm; }
+  h2 { font-size: 12.7pt; margin-bottom: 1.9mm; }
+  h3 { font-size: 11pt; margin-top: 0; }
+  .inline-date { font-size: 9.1pt; }
+  .role-meta, .stack { font-size: 9.1pt; }
+  ul { margin-top: 1mm; padding-left: 4.5mm; }
+  li + li { margin-top: .45mm; }
+  article { padding: 1.3mm 0 .6mm; }
+  a { color: inherit; text-decoration: none; }
+}
